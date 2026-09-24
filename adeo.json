@@ -1,0 +1,696 @@
+{
+    "page": 1,
+    "vokabulary": {
+        "a": {
+            "meaning": [
+                "von",
+                "von...her"
+            ],
+            "stammformen": [
+                "Präposition mit Ablativ"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "ab": {
+            "meaning": [
+                "von",
+                "von...her"
+            ],
+            "stammformen": [
+                "Präposition mit Ablativ"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "abesse": {
+            "meaning": [
+                "abwesend sein (von)",
+                "nicht da sein",
+                "fehlen"
+            ],
+            "stammformen": [
+                "absum",
+                "afui",
+                "a mit Ablativ"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "abire": {
+            "meaning": [
+                "weggehen"
+            ],
+            "stammformen": [
+                "abeo",
+                "abii",
+                "abitum"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "ac": {
+            "meaning": [
+                "und",
+                "und auch"
+            ],
+            "stammformen": [
+                "=atque"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "ire": {
+            "meaning": [
+                "gehen",
+                "laufen"
+            ],
+            "stammformen": [
+                "eo",
+                "ii"
+            ],
+            "blue": true
+        },
+        "accedere": {
+            "meaning": [
+                "hinkommen",
+                "dazukommen",
+                "kommen (zu/nach)"
+            ],
+            "stammformen": [
+                "accedo",
+                "accessi",
+                "accessum"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "abducere": {
+            "meaning": [
+                "wegführen"
+            ],
+            "stammformen": [
+                "abduco",
+                "abduxi",
+                "abductum"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "accendere": {
+            "meaning": [
+                "anzünden",
+                "anfeuern"
+            ],
+            "stammformen": [
+                "accendo",
+                "accendi",
+                "accensum"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "accidere": {
+            "meaning": [
+                "geschehen",
+                "sich ereignen",
+                "passieren"
+            ],
+            "stammformen": [
+                "accido",
+                "accidi"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "accipere": {
+            "meaning": [
+                "bekommen",
+                "annehmen",
+                "erfahren"
+            ],
+            "stammformen": [
+                "accipio",
+                "accepi",
+                "acceptum"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "accusare": {
+            "meaning": [
+                "anklagen",
+                "beschuldigen"
+            ],
+            "stammformen": [
+                "accuso",
+                "accusavi",
+                "accusatum"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "acer": {
+            "meaning": [
+                "energisch",
+                "heftig",
+                "scharf"
+            ],
+            "stammformen": [
+                "acris",
+                "acre"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "acerbus": {
+            "meaning": [
+                "bitter",
+                "grausam",
+                "rücksichtslos"
+            ],
+            "stammformen": [
+                "acerba",
+                "acerbum"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "acies": {
+            "meaning": [
+                "die Schärfe",
+                "die Schlacht",
+                "die Schlachtreihe"
+            ],
+            "stammformen": [
+                "aciei",
+                "f"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "actio": {
+            "meaning": [
+                "die Tätigkeit",
+                "die Gerichtsverhandlung",
+                "die Rede"
+            ],
+            "stammformen": [
+                "actionis",
+                "f"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "ad": {
+            "meaning": [
+                "zu",
+                "bei",
+                "nach"
+            ],
+            "stammformen": [
+                "Präposition mit Akkusativ"
+            ],
+            "blue": true,
+            "page": 9
+        },
+        "addere": {
+            "meaning": [
+                "hinzufügen"
+            ],
+            "stammformen": [
+                "addo",
+                "addidi",
+                "additum"
+            ],
+            "blue": false,
+            "page": 9
+        },
+        "adducere": {
+            "meaning": [
+                "herführen",
+                "hinführen",
+                "veranlassen"
+            ],
+            "stammformen": [
+                "adduco",
+                "adduxi",
+                "adductum"
+            ],
+            "blue": true,
+            "page": 11
+        },
+        "adeo": {
+            "meaning": [
+                "so sehr"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": 11
+        },
+        "adesse": {
+            "meaning": [
+                "da sein",
+                "helfen"
+            ],
+            "stammformen": [
+                "adsum",
+                "adfui"
+            ],
+            "blue": true,
+            "page": 11
+        },
+        "adhuc": {
+            "meaning": [
+                "bis jetzt",
+                "noch"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": 11
+        },
+        "adicere": {
+            "meaning": [
+                "hinzufügen"
+            ],
+            "stammformen": [
+                "adicio",
+                "adieci",
+                "adiectum"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "adire": {
+            "meaning": [
+                "hingehen",
+                "sich wenden (an)"
+            ],
+            "stammformen": [
+                "adeo",
+                "adii",
+                "aditum"
+            ],
+            "blue": true,
+            "page": 11
+        },
+        "aditus": {
+            "meaning": [
+                "der Eingang",
+                "der Zugang"
+            ],
+            "stammformen": [
+                "aditus",
+                "m"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "adiungere": {
+            "meaning": [
+                "hinzufügen",
+                "anschließen"
+            ],
+            "stammformen": [
+                "adiungo",
+                "adiunxi",
+                "adiunctum"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "admittere": {
+            "meaning": [
+                "hinzuziehen",
+                "zulassen"
+            ],
+            "stammformen": [
+                "admitto",
+                "admisi",
+                "admissum"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "adulescens": {
+            "meaning": [
+                "jung"
+            ],
+            "stammformen": [
+                "adulescens",
+                "adulescens",
+                "(Genitiv: adulescentis)"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "adventus": {
+            "meaning": [
+                "die Ankunft"
+            ],
+            "stammformen": [
+                "adventus",
+                "m"
+            ],
+            "blue": true,
+            "page": 11
+        },
+        "adversus": {
+            "meaning": [
+                "gegen"
+            ],
+            "stammformen": [
+                "Präposition mit Akkusativ"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "aedes": {
+            "meaning": [
+                "das Haus"
+            ],
+            "stammformen": [
+                "aedium",
+                "f",
+                "Pluraletantum"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "aedificare": {
+            "meaning": [
+                "bauen"
+            ],
+            "stammformen": [
+                "aedifico",
+                "aedificavi",
+                "aedificatum"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "aedificium": {
+            "meaning": [
+                "das Gebäude"
+            ],
+            "stammformen": [
+                "aedificii",
+                "n"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "aedis": {
+            "meaning": [
+                "der Tempel"
+            ],
+            "stammformen": [
+                "aedis",
+                "f",
+                "(Genitiv Plural: -ium)"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "aequor": {
+            "meaning": [
+                "die Ebene",
+                "das Meer"
+            ],
+            "stammformen": [
+                "aequoris",
+                "n"
+            ],
+            "blue": false,
+            "page": 11
+        },
+        "aequus": {
+            "meaning": [
+                "eben",
+                "gerecht",
+                "gleich"
+            ],
+            "stammformen": [
+                "aequa",
+                "aequum"
+            ],
+            "blue": true,
+            "page": 11
+        },
+        "aer": {
+            "meaning": [
+                "die Luft"
+            ],
+            "stammformen": [
+                "aeris",
+                "n"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aes": {
+            "meaning": [
+                "das Geld",
+                "der Lohn"
+            ],
+            "stammformen": [
+                "aeris",
+                "n"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aes alienum": {
+            "meaning": [
+                "die Schulden"
+            ],
+            "stammformen": [
+                "aeris alieni",
+                "n"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aestas": {
+            "meaning": [
+                "der Sommer"
+            ],
+            "stammformen": [
+                "aestatis",
+                "f"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aestimare": {
+            "meaning": [
+                "einschätzen",
+                "beurteilen"
+            ],
+            "stammformen": [
+                "aestimo",
+                "aestimavi",
+                "aestimatum"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aestus": {
+            "meaning": [
+                "die Hitze",
+                "die Flut",
+                "der Meeresspiegel"
+            ],
+            "stammformen": [
+                "aestus",
+                "m"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aetas": {
+            "meaning": [
+                "aetatis",
+                "f"
+            ],
+            "stammformen": [
+                "die Zeit",
+                "die Epoche",
+                "das Alter"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "aeternus": {
+            "meaning": [
+                "ewig"
+            ],
+            "stammformen": [
+                "aeterna",
+                "aeternum"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "affere": {
+            "meaning": [
+                "bringen",
+                "herbringen",
+                "mitbringen",
+                "melden"
+            ],
+            "stammformen": [
+                "affero",
+                "attuli",
+                "allatum"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "afficere": {
+            "meaning": [
+                "versehen",
+                "erfüllen mit etwas"
+            ],
+            "stammformen": [
+                "afficio",
+                "affeci",
+                "affectum",
+                "mit Ablativ"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "ager": {
+            "meaning": [
+                "das Acker",
+                "das Feld",
+                "das Gebiet"
+            ],
+            "stammformen": [
+                "agri",
+                "m"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "agere": {
+            "meaning": [
+                "handeln",
+                "tun",
+                "treiben",
+                "verhandeln"
+            ],
+            "stammformen": [
+                "ago",
+                "egi",
+                "actum"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "aggredi": {
+            "meaning": [
+                "angreifen",
+                "hingehen (zu)"
+            ],
+            "stammformen": [
+                "aggredior",
+                "agressus sum"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "agitare": {
+            "meaning": [
+                "jagen",
+                "beunruhigen",
+                "besprechen",
+                "überlegen"
+            ],
+            "stammformen": [
+                "agito",
+                "agitavi",
+                "agitatum"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "agmen": {
+            "meaning": [
+                "das Heer",
+                "der Marsch",
+                "die Schar"
+            ],
+            "stammformen": [
+                "agminis",
+                "n"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "aio": {
+            "meaning": [
+                "behaupte(te) ich",
+                "sag(t)e ich"
+            ],
+            "stammformen": [
+                "ait",
+                "aiunt"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "alere": {
+            "meaning": [
+                "ernähren",
+                "großziehen"
+            ],
+            "stammformen": [
+                "alo",
+                "alui",
+                "altum"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "alienus": {
+            "meaning": [
+                "fremd"
+            ],
+            "stammformen": [
+                "aliena",
+                "alienum"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "aliqui": {
+            "meaning": [
+                "ein",
+                "eine",
+                "irgendein",
+                "irgendeine"
+            ],
+            "stammformen": [
+                "aliqua",
+                "aliquod"
+            ],
+            "blue": false,
+            "page": "13"
+        },
+        "aliquis": {
+            "meaning": [
+                "jemand",
+                "etwas",
+                "irgendjemand",
+                "irgendetwas"
+            ],
+            "stammformen": [
+                "aliquid"
+            ],
+            "blue": true,
+            "page": "13"
+        }
+    }
+}

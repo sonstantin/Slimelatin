@@ -238,7 +238,7 @@
                 "adductum"
             ],
             "blue": true,
-            "page": 11
+            "page": 9
         },
         "adeo": {
             "meaning": [
@@ -246,7 +246,7 @@
             ],
             "stammformen": [],
             "blue": true,
-            "page": 11
+            "page": 9
         },
         "adesse": {
             "meaning": [
@@ -446,7 +446,7 @@
                 "n"
             ],
             "blue": false,
-            "page": "13"
+            "page": "11"
         },
         "aes": {
             "meaning": [
@@ -458,7 +458,7 @@
                 "n"
             ],
             "blue": false,
-            "page": "13"
+            "page": "11"
         },
         "aes alienum": {
             "meaning": [
@@ -469,7 +469,7 @@
                 "n"
             ],
             "blue": false,
-            "page": "13"
+            "page": "11"
         },
         "aestas": {
             "meaning": [
@@ -480,7 +480,7 @@
                 "f"
             ],
             "blue": false,
-            "page": "13"
+            "page": "11"
         },
         "aestimare": {
             "meaning": [
@@ -493,7 +493,7 @@
                 "aestimatum"
             ],
             "blue": false,
-            "page": "13"
+            "page": "11"
         },
         "aestus": {
             "meaning": [
@@ -691,6 +691,725 @@
             ],
             "blue": true,
             "page": "13"
+        },
+        "aliter": {
+            "meaning": [
+                "anders",
+                "sonst"
+            ],
+            "stammformen": [],
+            "blue": false,
+            "page": "13"
+        },
+        "alius": {
+            "meaning": [
+                "ein anderer"
+            ],
+            "stammformen": [
+                "aliena",
+                "alienum"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "alius...alius": {
+            "meaning": [
+                "der eine...der andere"
+            ],
+            "stammformen": [],
+            "blue": false,
+            "page": "13"
+        },
+        "alter": {
+            "meaning": [
+                "der eine/der andere (von zweien)"
+            ],
+            "stammformen": [
+                "altera",
+                "alterum",
+                "Genitiv: alterius",
+                "Dativ: alteri"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "altus": {
+            "meaning": [
+                "hoch",
+                "tief"
+            ],
+            "stammformen": [
+                "alta",
+                "altum"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "amare": {
+            "meaning": [
+                "lieben"
+            ],
+            "stammformen": [
+                "amo"
+            ],
+            "blue": true,
+            "page": "13"
+        },
+        "ambo": {
+            "meaning": [
+                "beide (zusammen)"
+            ],
+            "stammformen": [
+                "ambae",
+                "ambo"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "amicitia": {
+            "meaning": [
+                "die Freundschaft"
+            ],
+            "stammformen": [
+                "amicitiae",
+                "f"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "amicus": {
+            "meaning": [
+                "Freund",
+                "politischer Anhänger"
+            ],
+            "stammformen": [
+                "amici",
+                "f"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "amittere": {
+            "meaning": [
+                "aufgeben",
+                "verlieren"
+            ],
+            "stammformen": [
+                "amitto",
+                "amisi",
+                "amissum"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "amor": {
+            "meaning": [
+                "die Liebe"
+            ],
+            "stammformen": [
+                "amoris",
+                "m"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "amplus": {
+            "meaning": [
+                "bedeutend",
+                "groß",
+                "weit"
+            ],
+            "stammformen": [
+                "ampla",
+                "amplum"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "an": {
+            "meaning": [
+                "ob (nicht)",
+                "oder (etwa)"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "15"
+        },
+        "angustus": {
+            "meaning": [
+                "eng",
+                "schwierig"
+            ],
+            "stammformen": [
+                "angusta",
+                "angustum"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "anima": {
+            "meaning": [
+                "der Atem",
+                "das Leben"
+            ],
+            "stammformen": [
+                "animae",
+                "f"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "animadvertere": {
+            "meaning": [
+                "bemerken",
+                "merken"
+            ],
+            "stammformen": [
+                "animadverto",
+                "animadverti",
+                "animadversum"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "animus": {
+            "meaning": [
+                "Geist",
+                "Gesinnung",
+                "Mut"
+            ],
+            "stammformen": [
+                "animi",
+                "m"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "annus": {
+            "meaning": [
+                "das Jahr"
+            ],
+            "stammformen": [
+                "anni",
+                "m"
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "ante": {
+            "meaning": [
+                "vor"
+            ],
+            "stammformen": [
+                "m. Akk."
+            ],
+            "blue": true,
+            "page": "15"
+        },
+        "antea": {
+            "meaning": [
+                "vorher",
+                "früher"
+            ],
+            "stammformen": [],
+            "blue": false,
+            "page": "15"
+        },
+        "antiquus": {
+            "meaning": [
+                "alt",
+                "altertümlich"
+            ],
+            "stammformen": [
+                "antiqua",
+                "antiquum"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "anus": {
+            "meaning": [
+                "die alte Frau"
+            ],
+            "stammformen": [
+                "anus",
+                "f"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "aperire": {
+            "meaning": [
+                "aufdecken",
+                "öffnen"
+            ],
+            "stammformen": [
+                "aperio",
+                "aperui",
+                "apertum"
+            ],
+            "blue": false,
+            "page": "15"
+        },
+        "apertus": {
+            "meaning": [
+                "offen",
+                "offenkundig"
+            ],
+            "stammformen": [
+                "aperta",
+                "apertum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "appellare": {
+            "meaning": [
+                "anrufen",
+                "nennen"
+            ],
+            "stammformen": [
+                "appello",
+                "appellavi",
+                "appellatum"
+            ],
+            "blue": true,
+            "page": "17"
+        },
+        "appetere": {
+            "meaning": [
+                "haben wollen",
+                "erstreben",
+                "angreifen"
+            ],
+            "stammformen": [
+                "appeto",
+                "appetivi",
+                "appetitum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "apud": {
+            "meaning": [
+                "bei",
+                "nahe bei"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "17"
+        },
+        "aqua": {
+            "meaning": [
+                "das Wasser"
+            ],
+            "stammformen": [
+                "aquae",
+                "f"
+            ],
+            "blue": true,
+            "page": "17"
+        },
+        "ara": {
+            "meaning": [
+                "der Altar"
+            ],
+            "stammformen": [
+                "arae",
+                "f"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "arbitrari": {
+            "meaning": [
+                "glauben",
+                "meinen"
+            ],
+            "stammformen": [
+                "arbitror",
+                "arbitratus sum"
+            ],
+            "blue": true,
+            "page": "17"
+        },
+        "arbor": {
+            "meaning": [
+                "der Baum"
+            ],
+            "stammformen": [
+                "arboris",
+                "f"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "arcessere": {
+            "meaning": [
+                "herbeirufen",
+                "holen"
+            ],
+            "stammformen": [
+                "arcesso",
+                "arcessivi",
+                "arcessitum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "ardere": {
+            "meaning": [
+                "brennen"
+            ],
+            "stammformen": [
+                "ardeo",
+                "arsi",
+                "arsurum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "argentum": {
+            "meaning": [
+                "das Silber"
+            ],
+            "stammformen": [
+                "argenti",
+                "n"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "arma": {
+            "meaning": [
+                "das Gerät",
+                "die Waffen"
+            ],
+            "stammformen": [
+                "armorum",
+                "n",
+                "Pluraletantum"
+            ],
+            "blue": true,
+            "page": "17"
+        },
+        "armatus": {
+            "meaning": [
+                "bewaffnet"
+            ],
+            "stammformen": [
+                "armata",
+                "armatum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "ars": {
+            "meaning": [
+                "die Eigenschaft",
+                "die Fertigkeit",
+                "die Kunst"
+            ],
+            "stammformen": [
+                "artis",
+                "f"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "arx": {
+            "meaning": [
+                "die Burg"
+            ],
+            "stammformen": [
+                "arcis",
+                "f"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "asper": {
+            "meaning": [
+                "rau",
+                "streng"
+            ],
+            "stammformen": [
+                "aspera",
+                "asperum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "aspicere": {
+            "meaning": [
+                "erblicken"
+            ],
+            "stammformen": [
+                "aspicio",
+                "aspexi",
+                "aspectum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "at": {
+            "meaning": [
+                "aber",
+                "dagegen",
+                "jedoch"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "17"
+        },
+        "ater": {
+            "meaning": [
+                "schwarz",
+                "düster"
+            ],
+            "stammformen": [
+                "atra",
+                "atrum"
+            ],
+            "blue": false,
+            "page": "17"
+        },
+        "atque": {
+            "meaning": [
+                "und",
+                "und auch"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "17"
+        },
+        "aurum": {
+            "meaning": [
+                "das Gold"
+            ],
+            "stammformen": [
+                "auri",
+                "n"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "attingere": {
+            "meaning": [
+                "berühren"
+            ],
+            "stammformen": [
+                "attingo",
+                "attigi",
+                "attactum"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "auctor": {
+            "meaning": [
+                "der Anführer",
+                "der Gründer",
+                "der Ratgeber",
+                "der Verfasser"
+            ],
+            "stammformen": [
+                "auctoris",
+                "m"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "auctoritas": {
+            "meaning": [
+                "das Ansehen",
+                "der Einfluss",
+                "die Macht"
+            ],
+            "stammformen": [
+                "auctoritatis",
+                "f"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "audacia": {
+            "meaning": [
+                "die Frechheit",
+                "die Kühnheit"
+            ],
+            "stammformen": [
+                "audacia",
+                "f"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "audere": {
+            "meaning": [
+                "wagen"
+            ],
+            "stammformen": [
+                "audeo",
+                "ausus sum"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "audire": {
+            "meaning": [
+                "hören"
+            ],
+            "stammformen": [
+                "audio",
+                "audivi",
+                "auditum"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "auferre": {
+            "meaning": [
+                "aufero",
+                "abstuli",
+                "ablatum"
+            ],
+            "stammformen": [
+                "rauben",
+                "wegbringen"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "augere": {
+            "meaning": [
+                "vergrößern",
+                "vermehren"
+            ],
+            "stammformen": [
+                "augeo",
+                "auxi",
+                "auctum"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "aura": {
+            "meaning": [
+                "die Gunst",
+                "die Luft"
+            ],
+            "stammformen": [
+                "aurae",
+                "f"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "aureus": {
+            "meaning": [
+                "golden"
+            ],
+            "stammformen": [
+                "aurea",
+                "aureum"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "auris": {
+            "meaning": [
+                "das Ohr"
+            ],
+            "stammformen": [
+                "auris",
+                "f"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "aut": {
+            "meaning": [
+                "oder"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "19"
+        },
+        "aut...aut": {
+            "meaning": [
+                "entweder...oder"
+            ],
+            "stammformen": [],
+            "blue": false,
+            "page": "19"
+        },
+        "autem": {
+            "meaning": [
+                "aber",
+                "andererseits"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "19"
+        },
+        "auxilium": {
+            "meaning": [
+                "die Hilfe"
+            ],
+            "stammformen": [
+                "auxilii",
+                "n"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "auxilia": {
+            "meaning": [
+                "die Hilfstruppen"
+            ],
+            "stammformen": [
+                "auxiliorum",
+                "n"
+            ],
+            "blue": true,
+            "page": "19"
+        },
+        "avaritia": {
+            "meaning": [
+                "der Geiz",
+                "die Habsucht"
+            ],
+            "stammformen": [
+                "avaritiae",
+                "f"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "avertere": {
+            "meaning": [
+                "abwenden",
+                "vertreiben"
+            ],
+            "stammformen": [
+                "averto",
+                "averti",
+                "aversum"
+            ],
+            "blue": false,
+            "page": "19"
+        },
+        "avus": {
+            "meaning": [
+                "der Großvater"
+            ],
+            "stammformen": [
+                "avi",
+                "m"
+            ],
+            "blue": false,
+            "page": "19"
         }
     }
 }

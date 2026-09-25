@@ -28,12 +28,11 @@ class LatinTrainer:
     self.raw_data = {"page": 1, "vokabulary": {}}
     self.latein = {}
     self.deutsch = {}
-    self.vocab_meta = {} # Speichert Seite und Blau-Status
-    
-    # Für die gefilterte Abfrage
+    self.vocab_meta = {}
+
     self.active_latein = {}
     self.active_deutsch = {}
-    
+
     self.current_frame = None
 
     self._setup_base_ui()
@@ -83,12 +82,10 @@ class LatinTrainer:
     return btn
 
   def _setup_base_ui(self):
-    # Fester Header oben
     self.header = tk.Frame(self.master, bg=self.COLOR_ACCENT, height=55)
     self.header.pack(fill="x", side="top")
     self.header.pack_propagate(False)
 
-    # Zurück-Button (standardmäßig versteckt)
     self.btn_back = tk.Button(
         self.header,
         text="← Zurück",
@@ -115,7 +112,6 @@ class LatinTrainer:
     )
     self.title_label.pack(side="left", padx=20, pady=12)
 
-    # Hauptcontainer (Weißes Card-Design)
     self.card_container = tk.Frame(
         self.master,
         bg=self.COLOR_CARD,
@@ -126,7 +122,6 @@ class LatinTrainer:
     self.card_container.pack(fill="both", expand=True, padx=20, pady=20)
 
   def _clear_content(self, show_back=True):
-    """Leert den Inhalt des Hauptfensters für die nächste Ansicht."""
     if self.current_frame is not None:
       self.current_frame.destroy()
 
@@ -153,10 +148,9 @@ class LatinTrainer:
           if isinstance(meanings, str):
             meanings = [meanings]
 
-          # Metadaten speichern (Blau und Seite)
           self.vocab_meta[lat_word] = {
               "blue": info.get("blue", False),
-              "page": str(info.get("page", ""))
+              "page": str(info.get("page", "")),
           }
 
           self.latein[lat_word] = meanings
@@ -259,8 +253,12 @@ class LatinTrainer:
       return entry
 
     self.lat_entry = create_field(self.current_frame, "Lateinisches Wort:")
-    self.deu_entry = create_field(self.current_frame, "Bedeutungen im Deutschen (kommagetrennt):")
-    self.stamm_entry = create_field(self.current_frame, "Stammformen (kommagetrennt):")
+    self.deu_entry = create_field(
+        self.current_frame, "Bedeutungen im Deutschen (kommagetrennt):"
+    )
+    self.stamm_entry = create_field(
+        self.current_frame, "Stammformen (kommagetrennt):"
+    )
     self.page_entry = create_field(self.current_frame, "Seite (z.B. 12):")
 
     self.blue_var = tk.BooleanVar()
@@ -276,7 +274,10 @@ class LatinTrainer:
     chk.pack(anchor="w", pady=5)
 
     self._create_button(
-        self.current_frame, text="Speichern", command=self.save_vocab, primary=True
+        self.current_frame,
+        text="Speichern",
+        command=self.save_vocab,
+        primary=True,
     ).pack(fill="x", pady=10)
 
     self.msg_label = tk.Label(
@@ -289,8 +290,12 @@ class LatinTrainer:
 
   def save_vocab(self):
     latinum = self.lat_entry.get().strip()
-    germanicum = [m.strip() for m in self.deu_entry.get().split(",") if m.strip()]
-    stammformen = [s.strip() for s in self.stamm_entry.get().split(",") if s.strip()]
+    germanicum = [
+        m.strip() for m in self.deu_entry.get().split(",") if m.strip()
+    ]
+    stammformen = [
+        s.strip() for s in self.stamm_entry.get().split(",") if s.strip()
+    ]
     page_val = self.page_entry.get().strip()
     is_blue = self.blue_var.get()
 
@@ -305,7 +310,7 @@ class LatinTrainer:
         "meaning": germanicum,
         "stammformen": stammformen,
         "blue": is_blue,
-        "page": page_val
+        "page": page_val,
     }
 
     with open("adeo.json", mode="w", encoding="utf-8") as f:
@@ -426,10 +431,9 @@ class LatinTrainer:
         bg=self.COLOR_CARD,
         fg=self.COLOR_TEXT_MUTED,
         wraplength=450,
-        justify="left"
+        justify="left",
     ).pack(anchor="w", pady=(0, 20))
 
-    # Blau Filter
     self.quiz_blue_var = tk.BooleanVar()
     tk.Checkbutton(
         self.current_frame,
@@ -441,7 +445,6 @@ class LatinTrainer:
         font=("Segoe UI", 10, "bold"),
     ).pack(anchor="w", pady=(0, 15))
 
-    # Seiten Filter
     tk.Label(
         self.current_frame,
         text="Nur Vokabeln von folgenden Seiten (kommagetrennt):",
@@ -449,7 +452,7 @@ class LatinTrainer:
         bg=self.COLOR_CARD,
         fg=self.COLOR_TEXT,
     ).pack(anchor="w", pady=(0, 5))
-    
+
     self.quiz_page_entry = tk.Entry(
         self.current_frame,
         font=("Segoe UI", 10),
@@ -480,33 +483,32 @@ class LatinTrainer:
       messagebox.showerror("Fehler", "Es sind keine Vokabeln vorhanden.")
       return
 
-    # Filter anwenden
     must_be_blue = self.quiz_blue_var.get()
-    allowed_pages = [p.strip() for p in self.quiz_page_entry.get().split(",") if p.strip()]
+    allowed_pages = [
+        p.strip() for p in self.quiz_page_entry.get().split(",") if p.strip()
+    ]
 
     self.active_latein = {}
     self.active_deutsch = {}
 
     for word, meta in self.vocab_meta.items():
-        # Check Blau
-        if must_be_blue and not meta["blue"]:
-            continue
-        # Check Seite
-        if allowed_pages and meta["page"] not in allowed_pages:
-            continue
-            
-        # Wort in die aktiven Listen übernehmen
-        self.active_latein[word] = self.latein[word]
-        for d_word in self.latein[word]:
-            if d_word not in self.active_deutsch:
-                self.active_deutsch[d_word] = []
-            self.active_deutsch[d_word].append(word)
+      if must_be_blue and not meta["blue"]:
+        continue
+      if allowed_pages and meta["page"] not in allowed_pages:
+        continue
+
+      self.active_latein[word] = self.latein[word]
+      for d_word in self.latein[word]:
+        if d_word not in self.active_deutsch:
+          self.active_deutsch[d_word] = []
+        self.active_deutsch[d_word].append(word)
 
     if not self.active_latein:
-        messagebox.showwarning("Hinweis", "Für diese Kriterien gibt es keine Vokabeln.")
-        return
+      messagebox.showwarning(
+          "Hinweis", "Für diese Kriterien gibt es keine Vokabeln."
+      )
+      return
 
-    # Punkte laden
     try:
       with open("punkte.json", mode="r", encoding="utf-8") as f:
         self.coins = json.load(f)
@@ -518,7 +520,6 @@ class LatinTrainer:
   def next_quiz_question(self):
     self._clear_content(show_back=True)
 
-    # Fragen-Generator (mit gefilterten Listen!)
     dir_choice = random.choice([1, 2])
     if dir_choice == 1:
       frage_dict = self.active_deutsch
@@ -538,7 +539,6 @@ class LatinTrainer:
         and self.antwort_sprache == "Deutsch"
     )
 
-    # Header-Bereich für die Frage
     header_frame = tk.Frame(self.current_frame, bg=self.COLOR_CARD)
     header_frame.pack(fill="x", pady=(0, 15))
 
@@ -630,12 +630,22 @@ class LatinTrainer:
     if not user_input:
       return
 
+    def strip_articles(text):
+      text = text.lower().strip()
+      for art in ["der ", "die ", "das "]:
+        if text.startswith(art):
+          text = text[len(art) :]
+      return text
+
     if self.is_konjunktiv_mode:
-      is_correct = user_input.lower() == self.korrekte_antwort.lower()
+      user_clean = strip_articles(user_input)
+      ans_clean = strip_articles(self.korrekte_antwort)
+      is_correct = user_clean == ans_clean
       loesung_str = self.korrekte_antwort
     else:
-      erwartete_clean = [a.strip().lower() for a in self.erwartete]
-      is_correct = user_input.lower() in erwartete_clean
+      user_clean = strip_articles(user_input)
+      erwartete_clean = [strip_articles(a) for a in self.erwartete]
+      is_correct = user_clean in erwartete_clean
       loesung_str = ", ".join(self.erwartete)
 
     if is_correct:
@@ -655,7 +665,6 @@ class LatinTrainer:
     self.coins_label.config(text=f"Punkte: {self.coins}")
     self.btn_submit.config(state="disabled")
 
-    # Button für die nächste Aufgabe
     self._create_button(
         self.current_frame,
         text="Nächste Vokabel →",

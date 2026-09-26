@@ -1410,6 +1410,131 @@
             ],
             "blue": false,
             "page": "19"
+        },
+        "barbarus": {
+            "meaning": [
+                "ausländisch",
+                "unzivilisiert"
+            ],
+            "stammformen": [
+                "barbara",
+                "barbarum"
+            ],
+            "blue": true,
+            "page": "21"
+        },
+        "beatus": {
+            "meaning": [
+                "beata",
+                "beatum"
+            ],
+            "stammformen": [
+                "glücklich",
+                "reich"
+            ],
+            "blue": false,
+            "page": "21"
+        },
+        "bellum": {
+            "meaning": [
+                "der Krieg"
+            ],
+            "stammformen": [
+                "belli",
+                "n"
+            ],
+            "blue": true,
+            "page": "21"
+        },
+        "bene": {
+            "meaning": [
+                "gut"
+            ],
+            "stammformen": [],
+            "blue": true,
+            "page": "21"
+        },
+        "beneficium": {
+            "meaning": [
+                "die Wohltat"
+            ],
+            "stammformen": [
+                "beneficii",
+                "n"
+            ],
+            "blue": false,
+            "page": "21"
+        },
+        "bibere": {
+            "meaning": [
+                "trinken"
+            ],
+            "stammformen": [
+                "bibo",
+                "bibi"
+            ],
+            "blue": false,
+            "page": "21"
+        },
+        "bonum": {
+            "meaning": [
+                "das Gut(e)",
+                "das Gut",
+                "das Gute"
+            ],
+            "stammformen": [
+                "boni",
+                "n"
+            ],
+            "blue": false,
+            "page": "21"
+        },
+        "bonus": {
+            "meaning": [
+                "gut"
+            ],
+            "stammformen": [
+                "bona",
+                "bonum"
+            ],
+            "blue": true,
+            "page": "21"
+        },
+        "bos": {
+            "meaning": [
+                "die Kuh",
+                "der Ochse",
+                "das Rind"
+            ],
+            "stammformen": [
+                "bovis",
+                "m/f"
+            ],
+            "blue": false,
+            "page": "21"
+        },
+        "brevis": {
+            "meaning": [
+                "kurz"
+            ],
+            "stammformen": [
+                "breve"
+            ],
+            "blue": false,
+            "page": "21"
+        },
+        "brevi": {
+            "meaning": [
+                "nach kurzer Zeit",
+                "bald",
+                "bald darauf",
+                "bald (darauf)"
+            ],
+            "stammformen": [
+                "(tempore)"
+            ],
+            "blue": false,
+            "page": "21"
         }
     }
 }
